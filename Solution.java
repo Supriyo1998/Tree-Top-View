@@ -51,7 +51,6 @@ class Solution {
         for (Map.Entry hmap:m.entrySet()) 
           System.out.print(hmap.getValue()+" "); 
     } 
-        //System.out.println(m.values());
 
 	public static Node insert(Node root, int data) {
         if(root == null) {
